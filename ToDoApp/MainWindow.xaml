@@ -25,10 +25,10 @@
 
         </Grid.RowDefinitions>
 
-        <Button Grid.Row="5" Grid.Column="1" Content="Create A Task"/>
-        <TextBox Grid.Row="3" Grid.Column="1" Background="#FFE6E5E5"/>
+        <Button Click="CreateTask_Click" Grid.Row="5" Grid.Column="1" Content="Create A Task"/>
+        <TextBox x:Name="TaskInput" Grid.Row="3" Grid.Column="1" Background="#FFE6E5E5"/>
         <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="auto">
-            <StackPanel Background="#FF373434"></StackPanel>
+            <StackPanel x:Name="TaskList" Background="#FF373434"></StackPanel>
         </ScrollViewer>
     </Grid>
 </Window>

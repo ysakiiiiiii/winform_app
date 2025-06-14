@@ -20,5 +20,11 @@ namespace ToDoApp
         {
             InitializeComponent();
         }
+
+        private void CreateTask_Click(object sender, RoutedEventArgs e)
+        {
+            string todoText = TaskInput.Text;
+            MessageBox.Show(todoText);
+        }
     }
 }
