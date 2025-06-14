@@ -23,8 +23,25 @@ namespace ToDoApp
 
         private void CreateTask_Click(object sender, RoutedEventArgs e)
         {
-            string todoText = TaskInput.Text;
-            MessageBox.Show(todoText);
+            string todoText = "> " + TaskInput.Text;
+
+            if(!string.IsNullOrEmpty(todoText) )
+            {
+                TextBlock todoItem = new TextBlock
+                {   
+
+                    Text = todoText,
+                    Margin = new Thickness(10),
+                    Foreground =  new SolidColorBrush(Colors.White)
+                };
+
+                TaskList.Children.Add(todoItem);
+
+                TaskInput.Clear();
+            }else
+            {
+                MessageBox.Show("Please enter a Task");
+            }
         }
     }
 }
