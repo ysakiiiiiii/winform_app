@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApp", "WPFApp\WPFApp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp", "ToDoApp\ToDoApp.csproj", "{7E0B6341-2AEB-407C-ACF2-C93254127461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlDemo", "UserControlDemo\UserControlDemo.csproj", "{575E5179-FF72-47C3-A2EA-7AABFD6A6A7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7E0B6341-2AEB-407C-ACF2-C93254127461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E0B6341-2AEB-407C-ACF2-C93254127461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E0B6341-2AEB-407C-ACF2-C93254127461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575E5179-FF72-47C3-A2EA-7AABFD6A6A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575E5179-FF72-47C3-A2EA-7AABFD6A6A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575E5179-FF72-47C3-A2EA-7AABFD6A6A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575E5179-FF72-47C3-A2EA-7AABFD6A6A7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
